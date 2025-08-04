@@ -10,9 +10,11 @@ console.log(numeroUsuario);
 
 if (numeroUsuario == numeroSecreto ) {
     alert("Acertaste en el número secreto")
+    //Se cumple la condición
 
 }else {
     alert("Lo sentimos, tu número no es correcto.")
+    //No se cumple la condición
 }
 
 

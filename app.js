@@ -9,7 +9,7 @@ console.log(numeroUsuario);
 /*Este bloque de código es una condición para comparar los números que dio el usuario y el número secreto que ya se encuentra almacenado en la variable numeroSecreto*/
 
 if (numeroUsuario == numeroSecreto ) {
-    alert("Acertaste en el número secreto")
+    alert(`Acertaste, el número secreto es: ${numeroSecreto}`)
     //Se cumple la condición
 
 }else {

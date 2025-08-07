@@ -1,20 +1,31 @@
 //Variables
 let numeroSecreto= 6;
-let numeroUsuario = prompt("Me indicas un número entre 1 y 10, por favor: ");
+let numeroUsuario = 0; /*-> Aunque no se está utilizando aquí y se le va a pedir al usuario que dé el valor de esta variable, es necesario declararla y asignarle valor antes de pasarla como parámetro al bucle while.*/
 
-// Una buena práctica es poner las variables, la descripción junta
+while(numeroUsuario != numeroSecreto){
 
-console.log(numeroUsuario);
+    let numeroUsuario = prompt("Me indicas un número entre 1 y 10, por favor: ");
 
-/*Este bloque de código es una condición para comparar los números que dio el usuario y el número secreto que ya se encuentra almacenado en la variable numeroSecreto*/
+    // Una buena práctica es poner las variables, la descripción junta
 
-if (numeroUsuario == numeroSecreto ) {
-    alert(`Acertaste, el número secreto es: ${numeroSecreto}`)
-    //Se cumple la condición
+    console.log(numeroUsuario);
 
-}else {
-    alert("Lo sentimos, tu número no es correcto.")
-    //No se cumple la condición
-}
+    /*Este bloque de código es una condición para comparar los números que dio el usuario y el número secreto que ya se encuentra almacenado en la varia5ble numeroSecreto*/
 
+    if (numeroUsuario == numeroSecreto ) {
+        alert(`Acertaste, el número secreto es: ${numeroSecreto}`)
+        //Se cumple la condición
+
+    }else {
+        if(numeroUsuario > numeroSecreto)
+        {
+            alert("El número esperado es menor");
+        }else{
+            alert("El número esperado es mayor");
+        }
+
+        // alert("Lo sentimos, tu número no es correcto.")
+        //No se cumple la condición
+    }
+}; 
 

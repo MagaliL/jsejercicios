@@ -5,7 +5,7 @@ let numeroUsuario = 0; /*-> Aunque no se está utilizando aquí y se le va a ped
 let intentos = 1;
 // let palabraIntento ="intento";
 let maxIntentos= 3;
-let davidComePopo= true; 
+
 
 
 // Console es para prueba
